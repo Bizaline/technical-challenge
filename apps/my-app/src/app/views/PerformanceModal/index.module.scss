@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.closeIcon {
+  cursor: pointer;
+  color: red;
+  font-size: 28px;
+}
+
+.appBar {
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #888888 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+}

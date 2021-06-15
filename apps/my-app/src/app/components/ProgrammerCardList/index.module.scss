@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex: 1;
+  border: 1px solid #d3d3d3;
+  background-color: #9dbcd4;
+  padding: 16px;
+  position: relative;
+  max-width: 400px;
+}
+.container:hover,
+.container:active {
+  background-color: #ffffff;
+}
+.containerDisabled::before {
+  background-color: red;
+}
+.containerEnabled::before {
+  background-color: green;
+}
+.container::before {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 4px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.badge {
+  padding-right: 8px !important;
+
+  span {
+    background-color: #000000 !important;
+    color: #ffffff;
+    transform: unset;
+    position: relative;
+  }
+}
+
+.pl8 {
+  padding-left: 8px !important;
+  margin-left: 8px !important;
+}
+
+.pipe::before {
+  content: ' ';
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 2px;
+  background-color: #000000;
+}

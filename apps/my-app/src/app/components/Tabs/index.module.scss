@@ -1,0 +1,13 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  div > div > button:global:not(.Mui-selected) {
+    background-color: #9dbcd4 !important;
+  }
+
+  span {
+    background-color: transparent;
+  }
+}
